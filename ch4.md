@@ -1,6 +1,20 @@
-# CH4. Store App
-## Scaffold 위젯
-기본 구조가 있는 도화지라고 여기면됩니다. 
+## 4챕터에 나온 위젯
+1. Scaffold  - 기본 구조가 있는 도화지라고 여기면됩니다. 
+2. SafeArea  - 화면을 안전한 영역에 배치시킵니다. 
+3. Column - 위젯을 세로로 배치하는 위젯
+4. Row - 위젯을 가로로 배치하는 위젯
+5. Padding - 테두리 영역 여백을 주고싶을 때 사용
+6. Text - 텍스트 출력에 사용하는 위젯
+```
+Text("Kids", style: TextStyle(fontWeight: FontWeight.bold))
+```
+7. Spacer - Column, Row 사이 간격에 여백을 자동으로 할당합니다. 
+8. Expanded - 위젯을 테두리 위젯까지 늘립니다.
+9. SizedBox - 여백을 주는 데 유용한 위젯입니다. (크기 수동)
+10. Image - jpg, png 등 이미지 출력에 사용하는 위젯
+```
+Image.asset("assets/bag.jpeg", fit: BoxFit.cover)
+```
 
 ## LIVE TEMPLATE 자동완성
 
